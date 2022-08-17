@@ -27,7 +27,7 @@ void PrintArray(double[,] tabl)
         Console.WriteLine();
     }
 }
-void scaling(double[,] array, double k) // проблема с преобразованием коэф. k из int в double (0.5) 
+void scaling(double[,] array, double k) 
 {
     double[,] array2 = new double[array.GetLength(0), array.GetLength(1)];
     for (int i = 0; i < array.GetLength(0); i++)
