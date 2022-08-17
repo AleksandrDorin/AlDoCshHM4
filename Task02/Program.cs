@@ -43,7 +43,7 @@ void scaling(double[,] array, double k) // проблема с преобраз�
 double[,] array = FillArray(4, 2);
 PrintArray(array);
 Console.WriteLine();
-Console.WriteLine("Введите коэффициент масштабирования k: 2 / 4 / 0.5 ");
+Console.WriteLine("Введите коэффициент масштабирования k: 2 / 4 / 0,5 ");
 double kof = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("");
 scaling(array, kof);
